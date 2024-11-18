@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    width: 100%;
+    height: 13%;
+    background-color: rgb(33, 86, 187);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    height: 20%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    position: cover;
+    object-fit: cover;
+}
+#name{
+    margin-left: 0 15px;
+}
+#heading1,#heading2,#heading3,#heading4{
+    margin: 0 15px;
+    position: center;
+    align-items: center;
+    justify-content: center;
+}
+#fakeheader{
+    width: 100%;
+    height: 13%;
+}
+#main-content{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(34, 58, 129);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div1{
+    display: flex;
+    justify-content: center;
+}
+#box1 h1{
+    color: white;
+    margin-right: 100px;
+}
+#box1{
+    margin-top: 150px;
+}
+#work{
+    background-color: rgb(251, 110, 157);
+    height: 25px;
+    width: 100px;
+    border-radius: 15%;
+    margin-left: 150px;
+    margin-top: 15px;
+}  
+#box2{
+    background-color: rgb(34, 58, 129);
+    object-fit: cover;
+}
+.bottom{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(34, 58, 129);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#instagram i, #facebook i, #google i{
+    font-size:40px
+}
+#footer{
+    width: 100%;
+    height: 2%;
+    background-color: white;
+}
